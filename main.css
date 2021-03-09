@@ -1,0 +1,36 @@
+.red {
+  background-color: red;
+}
+
+.contents {
+  width: 1000px;
+  
+}
+
+.contents img {
+  width: 400px;
+  height: 300px;
+}
+
+.contents ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contents li {
+  list-style: none;
+  padding: 10px 10px 10px
+}
+
+h4 {
+  font-size: 12px;
+  line-height: 0.8;
+}
+
+.contents img + h4 {
+  margin-top: -2px;
+}
+
+.target-area .hidden {
+  display: none;
+}
